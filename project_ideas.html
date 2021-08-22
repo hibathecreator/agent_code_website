@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Agent Code</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav>
+      <a href="index.html"><img src="https://cdn.glitch.com/1ec3f49c-c727-4187-8082-d28c4e9b2889%2Flogo2.png?v=1629571616573"/></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="python_tutorial.html">Python</a></li>
+          <li><a href="javascript_tutorial.html">JavaScript</a></li>
+          <li><a href="html_css_tutorial.html">HTML/CSS</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="project_ideas.html">Project Ideas</a></li>
+          <li><a href="more_resources.html">More Resources</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <section class='table'>
+        <h1 style= "text-align: center;">What you can do with your learning!</h1>
+      <br/>
+        <p style= "text-align: center;">
+        Below are some projects you can do as you have finished the tutorials!
+        </p>
+    </section>
+<br/>
+    <div class="htmlcss">
+      <h2 style="color: #f2f3f3;">HTML/CSS:</h2>
+      <br/>
+      <h5 style="color: #f2f3f3;">
+        Using HTML/CSS to make a website from the things you learned!
+      </h5>
+      <br />
+      <div class="fakeimg">
+        <img
+          class="blogimg"
+          src="https://cdn.glitch.com/1ec3f49c-c727-4187-8082-d28c4e9b2889%2Fhtml-css.jpg?v=1629613567793"
+          width="500px"
+          height="300px"
+        />
+      </div>
+
+      <p style="color:#f2f3f3;">
+        You think you got what it takes to make a website? Remix this
+        <a href="https://glitch.com/edit/#!/demo-website-">website</a> and you
+        can start building out your website! Remember, you just need dedication
+        and self-motivation!
+      </p>
+      <br />
+      <p style="color:#f2f3f3;">IDEs You Can Use:<br/>
+        • Repl.it <br/>
+        • Glitch <br>
+        • Visual Studio Code <br/>
+        • Sublime Text
+      </p>
+    </div>
+    
+    <div class="js">
+      <h2 style="color: #f2f3f3;">JavaScript</h2>
+      <br/>
+      <h5 style="color: #f2f3f3;">
+        Using JavaScript an escape room from the things you have learned! Ready? Set. Code Your Own Adventure!
+      </h5>
+      <br />
+      <div class="fakeimg">
+        <img
+          class="blogimg"
+          src="https://cdn.glitch.com/1ec3f49c-c727-4187-8082-d28c4e9b2889%2Fjs.png?v=1629622220242"
+          width="500px"
+          height="300px"
+        />
+      </div>
+
+      <p style="color:#f2f3f3;">
+        Got an idea to test it out or want to play around and later make your own version? Check this
+        <a href="https://github.com/CodeNextAdmin/TeamEdgeTerm0/blob/master/zombie_manor_starter.js">page </a> out and you
+        can copy and paste it to your own IDE! Remember, you just need dedication
+        and self-motivation!
+      </p>
+      <br />
+      <p style="color:#f2f3f3;">IDEs You Can Use:<br/>
+        • Repl.it <br/>
+        • Visual Studio Code <br/>
+        • Sublime Text
+      </p>
+    </div>
+    
+    <div class="python">
+      <h2 style="color: #f2f3f3;">Python</h2>
+      <br/>
+      <h5 style="color: #f2f3f3;">
+        Using the language, Python, and create your own Story Generator from the things you have learned!   </h5>
+      <br />
+      <div class="fakeimg">
+        <img
+          class="blogimg"
+          src="https://cdn.glitch.com/1ec3f49c-c727-4187-8082-d28c4e9b2889%2Fpython.gif?v=1629623606211"
+          width="500px"
+          height="300px"
+        />
+      </div>
+
+      <p style="color:#f2f3f3;">
+        Got an idea to test it out or want to play around and later make your own version? Check this
+        <a href="https://www.geeksforgeeks.org/how-to-build-a-random-story-generator-using-python/">page </a> out and you
+        can copy and paste it to your own IDE! Remember, you just need dedication
+        and self-motivation!
+      </p>
+      <br />
+      <p style="color:#f2f3f3;">IDEs You Can Use:<br/>
+        • Repl.it <br/>
+        • Visual Studio Code <br/>
+        • Sublime Text
+      </p>
+    </div>
+    <!--footer-->
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>
+        This website was created by Hiba Altaf, Thanhbinh Nguyen, and Anas
+        Ahmed.<br />
+        The material on this page can only be used for academic purposes and the
+        authors must be accredited for all original content.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navlinks");
+      function showMenu() {
+        navlinks.style.right = "0";
+      }
+      function hideMenu() {
+        navlinks.style.right = "-150px";
+      }
+    </script>
+  </body>
+</html>
