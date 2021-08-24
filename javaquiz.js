@@ -3,226 +3,92 @@ const questions = [
     question: "What is JavaScript?",
     optionA: "Hypertext Markup Language",
     optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
+    optionC: "High level Programming Language",
+    optionD: "Hyperlinking and Text Markup language",
+    correctOption: "optionC"
+  },
+
+  {
+    question: "What is the correct way to change the content of < p id='text' > Hello < /p >",
+    optionA: "document.getElement('hello').innerHTML='Hello World';",
+    optionB: "document.getElementById('hello').innerHTML='Hello World';",
+    optionC: "document.getId('hello').innerHTML='Hello World';",
+    optionD: "document.getElement('hello').innerHTML=Hello World;",
+    correctOption: "optionB"
+  },
+
+  {
+    question: "What is the correct way to display 'Hello World' in an alert box?",
+    optionA: "alertbox('Hello World');",
+    optionB: "msg('Hello World');",
+    optionC: "msgbox('Hello World');",
+    optionD: "alert('Hello World');",
+    correctOption: "optionD"
+  },
+
+  {
+    question: "What is the correct syntax for linking to an external script called 'script.js'?",
+    optionA: "< script src='script.js' >",
+    optionB: "< script href='script.js' >",
+    optionC: "< script ref='script.js' >",
+    optionD: "< script link='script.js' >",
     correctOption: "optionA"
   },
 
   {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
+    question:"What is the output of a = 8 + '8'; document.write(a);?",
+    optionA: "16",
+    optionB: "Compilation Error",
+    optionC: "Runtime Error",
+    optionD: "88",
+    correctOption: "optionD"
+  },
+
+  {
+    question: "var a='GeeksforGeeks'; var x=a.lastIndexOf('G'); document.write(x); What is the output of this code? ",
+    optionA: "9",
+    optionB: "0",
+    optionC: "8",
+    optionD: "Error",
+    correctOption: "optionC"
+  },
+
+  {
+    question:"Which of the following function of Array object returns true if at least one element in this array satisfies the provided testing function?",
+    optionA: "reverse()",
+    optionB: "some()",
+    optionC: "slice()",
+    optionD: "shift()",
+    correctOption: "optionB"
+  },
+
+  {
+    question: "Which built-in method combines the text of two strings and returns a new string?",
+    optionA: "concat()",
+    optionB: "attach()",
+    optionC: "append()",
+    optionD: "None of the above",
     correctOption: "optionA"
   },
 
   {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
+    question: "function myFunction(a,b) { return a*b; }; let x = myFunction(2,5). What is the value of x?",
+    optionA: "3",
+    optionB: "10",
+    optionC: "7",
+    optionD: "25",
+    correctOption: "optionB"
   },
 
   {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
+    question: "let txt = for (let x in person) {txt += person[x] + ' ';}; document.getElementById('demo').innerHTML = txt; For what person data abstraction would the ouput be 'Jane Doe 16'?",
+    optionA: "let person = {fname:'John', lname:'Doe'}",
+    optionB: "let person = (fname = 'Jane', lname = 'Doe',age= 16)",
+    optionC: "const person = ['Jane','Doe',16]",
+    optionD: "const person = {fname:'John', lname:'Doe', age:16}",
+    correctOption: "optionD"
   },
 
-  {
-    question:"What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question:"What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is JavaScript?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  }
 ];
 
 let shuffledQuestions = []; //empty array to hold shuffled selected questions out of all available questions

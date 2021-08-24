@@ -1,228 +1,94 @@
 const questions = [
   {
-    question: "What is HTML ?",
+    question: "What is HTML?",
     optionA: "Hypertext Markup Language",
     optionB: "High Text Making Language",
     optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
+    optionD: "Hyperlinking and Text Markup language",
     correctOption: "optionA"
   },
 
   {
-    question: "What is CSS ?",
-    optionA: "Cascading Style Sheets",
-    optionB: "Connecticut Snow Storm",
-    optionC: "Colorful Style Sheet",
-    optionD: "Creative Style Sheet",
+    question: "Which tag is used to add a header to an HTML table?",
+    optionA: "< h1 >",
+    optionB: "< table_head >",
+    optionC: "< header >",
+    optionD: "< th >",
+    correctOption: "optionD"
+  },
+
+  {
+    question: "What element is used to make any text bold?",
+    optionA: "< li >",
+    optionB: "< em >",
+    optionC: "< b >",
+    optionD: "< a >",
+    correctOption: "optionC"
+  },
+
+  {
+    question: "What element is used to make an unordered list?",
+    optionA: "< ol >",
+    optionB: "< ul >",
+    optionC: "< li >",
+    optionD: "< em >",
+    correctOption: "optionB"
+  },
+
+  {
+    question: "Which of the following attributes are used to add a link to any element?",
+    optionA: "source",
+    optionB: "link",
+    optionC: "ref",
+    optionD: "href",
+    correctOption: "optionD"
+  },
+
+  {
+    question: "What is the purpose of using div tags?",
+    optionA: "For adding titles",
+    optionB: "For creating different sections",
+    optionC: "For adding headings",
+    optionD: "For creating differnt styles",
+    correctOption: "optionB"
+  },
+
+  {
+    question: "Which of the following tags makes text italic?",
+    optionA: "< br >",
+    optionB: "< style='i'> ",
+    optionC: "< i >",
+    optionD: "None of the above",
+    correctOption: "optionC"
+  },
+
+  {
+    question: "What is the correct way for making a p tag bold?",
+    optionA: " < p style='font-weight: bold;'> ",
+    optionB: " < p style='font-thickness: 20px;' >",
+    optionC: "< p style='font-weight: large;' >",
+    optionD: "< p style='color: bold;' >",
     correctOption: "optionA"
   },
 
   {
-    question: "What is Boiler Plate",
-    optionA: "a template you add",
-    optionB: "a plate that boils",
-    optionC: "food",
-    optionD: "none",
-    correctOption: "optionA"
+    question: "Which of the following tags is used to add a line break?",
+    optionA: "< em >",
+    optionB: "< break >",
+    optionC: "< br >",
+    optionD: "< !-- -- >",
+    correctOption: "optionC"
   },
 
   {
-    question: "What is HTML Synthax ?",
-    optionA: "Set of rules ",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
+    question: "What is the correct way to change the background color of a div?",
+    optionA: "< div style='color: rgb(0,0,0)' >",
+    optionB: "< div style='background-color: red' >",
+    optionC: "< div style='background-color: #000' >",
+    optionD: "Both B and C",
+    correctOption: "optionD"
   },
 
-  {
-    question: "What is < p > for ?",
-    optionA: "Paragraph",
-    optionB: "Image",
-    optionC: "Heading",
-    optionD: "Button",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is < h4 > for ?",
-    optionA: "Heading",
-    optionB: "Paragraph",
-    optionC: "Image",
-    optionD: "Button",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "Which is largets Heading ?",
-    optionA: "h1",
-    optionB: "h2",
-    optionC: "h3",
-    optionD: "h4",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  },
-
-  {
-    question: "What is HTML ?",
-    optionA: "Hypertext Markup Language",
-    optionB: "High Text Making Language",
-    optionC: "Home tool make up language",
-    optionD: "Hyperlinkg and Text Markup language",
-    correctOption: "optionA"
-  }
 ];
 
 let shuffledQuestions = []; //empty array to hold shuffled selected questions out of all available questions
